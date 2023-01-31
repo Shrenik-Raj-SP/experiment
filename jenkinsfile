@@ -18,11 +18,13 @@ pipeline {
        
       }
     }
-    stage ("build")
+    
+    
+  }
+  stage ("build")
     {
       echo 'building'
     }
     
-    
-  }
 }
+
