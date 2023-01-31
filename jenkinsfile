@@ -1,6 +1,10 @@
 pipeline {
   agent any
   stages {
+  stage ("build")
+    {
+      echo 'building'
+    }
     stage ("Prompt for input") {
       steps {
         script {
@@ -21,10 +25,7 @@ pipeline {
     
     
   }
-  stage ("build")
-    {
-      echo 'building'
-    }
+  
     
 }
 
