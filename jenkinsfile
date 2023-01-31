@@ -18,17 +18,17 @@ pipeline {
        
       }
     }
-    stage ("Build")
+    stage("Build")
     {
       echo " this step is for build"
      
     }
-        stage ("test")
+        stage("test")
     {
       echo " this step is for test"
      
     }
-        stage ("deploy")
+        stage("deploy")
     {
       echo " this step is for deploy"
      
