@@ -1,3 +1,3 @@
-def call(String name, String animal){
-    echo "${name} likes ${animal}"
+def call(map raj = [:]){
+    echo "${raj.name} likes ${raj.animal}"
 }
