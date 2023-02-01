@@ -1,6 +1,6 @@
 package com.polaris
 
-public class uatInput {
+public class check {
 
   def buildIsUatApproved() {
     def file = new File("C:/approved.txt")
