@@ -1,6 +1,6 @@
 package com.polaris
 
-public class checkout {
+public class checkfile {
 
   def buildIsApproved() {
     def file = new File("C:/approved.txt")
