@@ -1,3 +1,3 @@
-def call(Map config = [:]){
-    echo "${config.name} likes ${config.animal}"
+def call(Map raj = [:]){
+    echo "${raj.name} likes ${raj.animal}"
 }
