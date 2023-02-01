@@ -2,7 +2,7 @@ package com.polaris
 
 public class check {
 
-  def buildIsUatApproved() {
+  def buildIsApproved() {
     def file = new File("C:/approved.txt")
     
     if (file.exists()){
