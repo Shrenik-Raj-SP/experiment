@@ -1,3 +1,3 @@
-def call(Map raj = [:]){
-    echo "${raj.name} likes ${raj.animal}"
+def call(){
+    echo "hello world"
 }
