@@ -1,4 +1,4 @@
-def call(String scriptName) {
+def call() {
   //def scriptPath = "${libraryResource('script/windows')}/${scriptName}"
   //def scriptPath = libraryResource "script/windows/${scriptName}"
   def scriptPath = libraryResource "script/windows/hello.ps1"
