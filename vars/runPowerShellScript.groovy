@@ -1,4 +1,4 @@
 def call(String scriptName) {
-  def scriptPath = "${libraryResource('experiment/resources/script/windows')}/${scriptName}"
+  def scriptPath = "${libraryResource('script/windows')}/${scriptName}"
   bat "powershell -File ${scriptPath}"
 }
